@@ -10,7 +10,6 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-//DMC FINAL 4 LAYER
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -20,8 +19,8 @@
 #define Base        0
 #define Sym         1
 #define Button      2
-#define Gaming      3
-#define Gaming+	    4
+#define Game        3
+#define Gameplus    4
 
 &mt {
     quick-tap-ms = <100>;
